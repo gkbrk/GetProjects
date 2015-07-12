@@ -1,5 +1,5 @@
-from distutils.core import setup
-setup(
+import setuptools
+setuptools.setup(
     name = "GetProjects",
     py_modules = ["getprojects"],
     entry_points = {"console_scripts": ["getprojects=getprojects:main"]},
